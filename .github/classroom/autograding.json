@@ -22,7 +22,7 @@
     },
     {
       "name": "Correct Health Endpoint",
-      "setup": "curl https://pyenv.run | bash",
+      "setup": "curl https://pyenv.run | sudo bash",
       "run": "./.csse6400/bin/health.sh",
       "input": "",
       "output": "",
