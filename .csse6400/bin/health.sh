@@ -2,6 +2,14 @@
 #
 # Check that the health endpoint is returning 200
 
+# Setup pipenv
+if ! command -v pipenv &> /dev/null
+then
+    export PYENV_ROOT="$HOME/.pyenv"
+    command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init -)"
+fi
+
 # Start flask app
 pipenv install
 pipenv run flask --app todo run -p 6400 &
