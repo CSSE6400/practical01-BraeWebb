@@ -29,6 +29,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 25
+    },
+    {
+      "name": "Correct Todo Endpoints",
+      "setup": "pip3 install pipenv",
+      "run": "./.csse6400/bin/unittest.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
     }
   ]
 }
