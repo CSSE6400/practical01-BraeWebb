@@ -22,7 +22,7 @@
     },
     {
       "name": "Correct Health Endpoint",
-      "setup": "pip install pipenv",
+      "setup": "pip3 install pipenv",
       "run": "./.csse6400/bin/health.sh",
       "input": "",
       "output": "",
